@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Train Tracker</title>
+    <title>Train Tracking</title>
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/style.css" /> 
@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- Firebase Reference -->
+    <!-- Firebase  -->
     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
-    <!-- Moment.js Reference -->
+    <!-- Moment.js -->
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-    <!-- Font Awesome -->
+    <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
@@ -26,8 +26,8 @@
   <div class="container">
     
     <div class="jumbotron text-centered">
-      <h1>Welcome to Douglas Train Station</h1>
-      <h2>Enjoy your ride</h2>
+      <h1 class="welcome-text">Browntown Train Station</h1>
+      <h2 class="welcome-text">Enjoy your ride</h2>
     </div>
 
     <div class="time-block"> Current Time: <span id="current-time"></span></div>
@@ -35,8 +35,8 @@
     <div class="row">
         <div class="col-lg-12">
       
-      <!-- Train board -->
-      <div class="panel panel-danger">
+     <!-- TRAIN DETAILS -->
+      <div class="panel">
         <div class="panel-heading">
           <h3 class="panel-title"><span class="fas fa-train"></span> Train Schedule</h3>
         </div>
@@ -61,13 +61,13 @@
         </div>
       </div>   
       
-    <!-- Adding a Train   -->
-    <div class="panel panel-danger">
+    <!-- TO ADD A TRAIN   -->
+    <div class="panel">
         <div class="panel-heading">
           <h3 class="panel-title"><span class="fas fa-plus"></span>Add a Train</h3>
         </div>
         <div class="panel-body">
-        <!-- Entry form -->
+        <!--ENTRY FORM  -->
         <form>
           <div class="form-group">
             <label for="train-input">Train</label>
@@ -94,7 +94,7 @@
             <input class="form-control" id="frequency-input" type="text">
           </div>
 
-          <button class="btn btn-primary" id="add-train-btn" type="submit">Submit</button>
+          <button class="btn" id="add-train-btn" type="submit">SUBMIT</button>
 
           </form>
 
@@ -104,9 +104,9 @@
   </div>  
 </div>  
 
-  <!-- Loading in the jQuery -->
+  <!--JQuery Reference-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- Link to my js file -->
+  <!-- my JS file Reference -->
     <script type="text/javascript" src="assets/app.js"></script>
   
   </div>

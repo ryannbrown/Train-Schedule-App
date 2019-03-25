@@ -1,0 +1,29 @@
+.time-block{
+    font-size:32px;
+    text-align:center;
+    font-family: 'Abel', sans-serif;
+}
+
+.jumbotron{
+    color:white;
+    font-weight:bold;
+    font-family: 'Abel', sans-serif;
+    text-align:center;
+    background-image:url("https://hdwallsource.com/img/2016/4/train-station-wallpaper-pictures-49179-50841-hd-wallpapers.jpg");
+    background-position-y:60%;
+}
+
+.panel-title {
+    color: black; !important;
+}
+
+.welcome-text{
+    background:white;
+    align-content:center;
+    font-weight:bold;
+}
+
+.btn{
+    font-size:20px !important;
+    font-family: 'Abel', sans-serif; 
+}
