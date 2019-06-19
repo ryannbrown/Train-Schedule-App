@@ -21,6 +21,7 @@
     background:white;
     align-content:center;
     font-weight:bold;
+    box-shadow: 8px 6px 15px #888;
 }
 
 .btn{
