@@ -1,7 +1,6 @@
 # Train-Schedule-App
 
-### This Application is used to simulate a train schedule where trains and their schedules are added 
-### To show a simulation of their arrival and frequencies. 
+### This Application is used to simulate a train schedule where trains and their schedules are added to show a simulation of their arrival and frequencies. 
 
 ### This Application is using primarily Moment.Js, Node.JS, and a Firebase database to store the trains' routes.
 
